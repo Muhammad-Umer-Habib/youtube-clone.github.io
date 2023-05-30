@@ -1,7 +1,7 @@
 // import axios from "axios";
 import axios from "axios";
 
-import { REACT_APP_RAPID_API_KEY } from "./config";
+// import { REACT_APP_RAPID_API_KEY } from "./config";
 // import api_key from dart
 
 const BASE_URL = "https://youtube-v31.p.rapidapi.com";
@@ -14,7 +14,7 @@ const options = {
   headers: {
     // "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
 
-    "X-RapidAPI-Key": REACT_APP_RAPID_API_KEY,
+    "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
     "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
   },
 };
